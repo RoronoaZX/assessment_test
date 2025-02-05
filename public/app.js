@@ -81,6 +81,7 @@ function fetchContacts() {
                 console.error("Response Status:", error.response.status);
                 console.error("Response Data:", error.response.data);
             }
+            alert("Error fetching contacts. Check console for details.");
         });
 }
 
