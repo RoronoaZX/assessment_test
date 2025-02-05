@@ -59,7 +59,8 @@ function fetchContacts() {
             console.log(response);  // Log full response
             let tableContent = "";
             response.data.forEach(contact => {
-                tableContent += `
+                tableContent +=
+                `
                     <tr>
                         <td>${contact.name}</td>
                         <td>${contact.company}</td>
